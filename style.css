@@ -1,0 +1,129 @@
+body{
+    font-family: "Rubik", sans-serif;
+    margin-top: 0;
+}
+
+p{
+    font-size: 15px;
+}
+
+.lead-p{
+    color: hsl(303, 10%, 53%);
+}
+
+.h1{
+    font-size: 3rem;
+    color: hsl(300, 43%, 22%);
+}
+
+.lead{
+    font-size: 0.9rem;
+}
+
+.reviews,
+.report,
+.besttech{
+    background-color: hsl(300, 24%, 96%);
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.comments{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.persona{
+    background-color: hsl(300, 43%, 22%);
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.persona .lead{
+    color: hsl(333, 80%, 67%);
+}
+
+.persona p{
+    color: hsl(0, 0%, 100%);
+}
+
+h6{
+    color: hsl(0, 0%, 100%);
+}
+
+.info{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.img img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.name{
+    margin-left: 1rem;
+}
+
+.name p{
+    margin-top: 0;
+}
+
+.name h6{
+    margin-bottom: 0;
+}
+
+.persona{
+    height: 225px;
+    padding: 1rem;
+}
+
+.persona:nth-child(2){
+    margin-top: 1.5rem;
+}
+
+.persona:last-child{
+    margin-top: 2.5rem;
+}
+
+.container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media (max-width:767px){
+    .comments{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .info{
+        margin-bottom: 1rem;
+    }
+
+    .lead{
+        font-size: 1.2rem;
+    }
+
+    .img{
+        text-align: start;
+    }
+}
+
+@media (min-width:576px){
+    .info{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .persona{
+        height: 300px;
+    }
+
+    .img img{
+        margin-left: 2rem;
+    }
+}
